@@ -64,8 +64,8 @@ export function HeroSection({ onStartDiagnosis, largeText }: HeroSectionProps) {
           <div className="lg:col-span-6">
             <div className="relative h-full min-h-[260px] sm:min-h-[320px] lg:min-h-[380px] rounded-xl overflow-hidden border border-stone-200 bg-stone-100">
               <ResilientImage
-                src="/src/assets/images/hero_senior_activity_1795754725724.jpg"
-                alt="지역 복지관 공방과 실버카페에서 밝게 웃으며 함께 활동하는 어르신들"
+                src="/src/assets/images/hero_senior_field_1795757903639.jpg"
+                alt="지역 어르신들이 노인일자리 복지관 실내 텃밭과 활동 공간에서 함께 웃으며 참여하는 모습"
                 className="w-full h-full lg:h-full object-cover object-center"
                 fallbackTitle="활기찬 노후, 지역사회와 함께하는 내일"
                 fallbackSubtitle="만 60세 이상 어르신을 위한 맞춤형 일자리 자격 안내"

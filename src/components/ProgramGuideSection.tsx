@@ -84,39 +84,68 @@ export function ProgramGuideSection({
           </p>
         </div>
 
-        {/* Two editorial photography blocks */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-          <figure className="border border-stone-200 rounded-xl overflow-hidden bg-[#FAF9F6]">
-            <div className="aspect-[4/3] overflow-hidden bg-stone-100">
+        {/* Three authentic senior club field activity cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
+          <figure className="border border-stone-200 rounded-xl overflow-hidden bg-white p-4 flex flex-col">
+            <div className="aspect-[4/3] rounded-lg overflow-hidden bg-stone-100">
               <ResilientImage
-                src="/src/assets/images/program_community_work_1795754727345.jpg"
-                alt="지역 공공도서관 안내 데스크에서 방문객에게 도서를 안내하는 어르신 활동가"
+                src="/src/assets/images/team_public_service_1795757904508.jpg"
+                alt="노란 안전 조끼와 모자를 착용하고 초등학교 앞 횡단보도에서 안전 지도를 하는 아동안전돌봄이 어르신들"
                 className="w-full h-full object-cover"
-                fallbackTitle="노인공익활동 · 역량활용 현장"
-                fallbackSubtitle="도서관, 학교, 복지시설 등 지역사회 서비스 지원"
+                fallbackTitle="노인공익활동사업 사업단"
+                fallbackSubtitle="학교가꿈이 · 아동안전돌봄이 · 급식돌봄이 · 마을사랑"
               />
             </div>
-            <figcaption className="px-5 py-4 text-sm text-stone-600">
-              <span className="font-semibold text-stone-900">공익활동 · 역량활용</span>
-              <span className="mx-2 text-stone-300" aria-hidden="true">·</span>
-              <span>도서관·보육시설·공공기관 등 지역사회 공익 및 돌봄 지원 활동</span>
+            <figcaption className="pt-4 pb-1 px-1 text-center">
+              <p className="text-base font-bold text-stone-950">노인공익활동사업 사업단</p>
+              <p className="text-xs font-medium text-[#0F5132] mt-1">
+                학교가꿈이 · 급식돌봄이 · 아동안전돌봄이
+              </p>
+              <p className="text-sm text-stone-600 mt-2 leading-relaxed break-keep">
+                마을사랑 · 도시농부 · 에코천안 등 학교와 공원, 지역사회를 가꾸는 공익 봉사 활동
+              </p>
             </figcaption>
           </figure>
 
-          <figure className="border border-stone-200 rounded-xl overflow-hidden bg-[#FAF9F6]">
-            <div className="aspect-[4/3] overflow-hidden bg-stone-100">
+          <figure className="border border-stone-200 rounded-xl overflow-hidden bg-white p-4 flex flex-col">
+            <div className="aspect-[4/3] rounded-lg overflow-hidden bg-stone-100">
               <ResilientImage
-                src="/src/assets/images/program_silver_cafe_1795754727008.jpg"
-                alt="실버카페 카운터에서 함께 핸드드립 커피를 내리며 환하게 웃는 시니어 바리스타"
+                src="/src/assets/images/team_capacity_care_1795757903663.jpg"
+                alt="어린이집에서 원아들의 블록 놀이를 따뜻하게 돕고 있는 보육돌봄 어르신 활동가"
                 className="w-full h-full object-cover"
-                fallbackTitle="공동체사업단 · 실버카페 현장"
-                fallbackSubtitle="어르신이 직접 참여하고 수익을 나누는 매장 운영"
+                fallbackTitle="노인역량활용사업 사업단"
+                fallbackSubtitle="어린이집돌봄이 · 도서관서포터즈 · 시니어안전지킴이"
               />
             </div>
-            <figcaption className="px-5 py-4 text-sm text-stone-600">
-              <span className="font-semibold text-stone-900">공동체사업단 · 취업지원</span>
-              <span className="mx-2 text-stone-300" aria-hidden="true">·</span>
-              <span>실버카페, 공동작업장 운영 및 민간 기업 시니어인턴십 연계</span>
+            <figcaption className="pt-4 pb-1 px-1 text-center">
+              <p className="text-base font-bold text-stone-950">노인역량활용사업 사업단</p>
+              <p className="text-xs font-medium text-[#0F5132] mt-1">
+                어린이집돌봄이 · 도서관서포터즈 · 시니어안전지킴이
+              </p>
+              <p className="text-sm text-stone-600 mt-2 leading-relaxed break-keep">
+                보육시설·도서관·공공기관·금융지원 등 경력과 역량을 발휘하는 사회서비스 지원
+              </p>
+            </figcaption>
+          </figure>
+
+          <figure className="border border-stone-200 rounded-xl overflow-hidden bg-white p-4 flex flex-col">
+            <div className="aspect-[4/3] rounded-lg overflow-hidden bg-stone-100">
+              <ResilientImage
+                src="/src/assets/images/team_community_business_1795757904426.jpg"
+                alt="실버카페 카운터에서 앞치마와 모자를 착용하고 커피를 내리는 시니어 바리스타 어르신들"
+                className="w-full h-full object-cover"
+                fallbackTitle="공동체사업단"
+                fallbackSubtitle="실버카페 · 너두나두 호두과자 · 밥상피자 · 별꽃공작소"
+              />
+            </div>
+            <figcaption className="pt-4 pb-1 px-1 text-center">
+              <p className="text-base font-bold text-stone-950">공동체사업단</p>
+              <p className="text-xs font-medium text-[#0F5132] mt-1">
+                실버카페 · 너두나두 호두과자 · 별꽃공작소
+              </p>
+              <p className="text-sm text-stone-600 mt-2 leading-relaxed break-keep">
+                카페·편의점·식품제조·공방 매장을 어르신들이 함께 운영하고 수익을 나누는 사업
+              </p>
             </figcaption>
           </figure>
         </div>
