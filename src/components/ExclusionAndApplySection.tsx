@@ -229,24 +229,24 @@ export function ExclusionAndApplySection({ largeText }: ExclusionAndApplySection
               </div>
             </div>
 
-            <div className="p-6 sm:p-7 border border-stone-200 rounded-xl bg-[#0F5132] text-white flex flex-col justify-between">
+            <div className="p-6 sm:p-7 border border-[#7DD3FC] rounded-xl bg-[#E0F2FE] text-[#0C4A6E] flex flex-col justify-between">
               <div>
-                <p className="font-mono-num text-xs font-medium text-emerald-100/80 mb-2">
+                <p className="font-mono-num text-xs font-semibold text-[#0369A1] mb-2">
                   방법 03 · 상담 및 문의
                 </p>
-                <h3 className="text-lg font-bold mb-2">
+                <h3 className="text-lg font-bold text-[#0C4A6E] mb-2">
                   공식 상담 대표번호
                 </h3>
-                <p className="text-sm text-emerald-50/90 leading-relaxed">
+                <p className="text-sm text-[#075985] leading-relaxed">
                   문의 주시면 성실히 정성껏 답변드리겠습니다. 자격 조건이나 접수 일정이 궁금하실 때 편하신 번호로 연락해 주세요.
                 </p>
               </div>
-              <div className="mt-6 pt-4 border-t border-white/20 space-y-2.5">
+              <div className="mt-6 pt-4 border-t border-[#7DD3FC]/70 space-y-2.5">
                 <a
                   href="tel:041-415-2090"
-                  className="flex items-center justify-between gap-3 hover:underline underline-offset-4"
+                  className="flex items-center justify-between gap-3 text-[#0C4A6E] hover:underline underline-offset-4"
                 >
-                  <span className="inline-flex items-center gap-2 text-sm font-medium text-emerald-100">
+                  <span className="inline-flex items-center gap-2 text-sm font-semibold text-[#0369A1]">
                     <PhoneCall className="w-4 h-4 shrink-0" aria-hidden="true" />
                     <span>사무실</span>
                   </span>
@@ -256,9 +256,9 @@ export function ExclusionAndApplySection({ largeText }: ExclusionAndApplySection
                 </a>
                 <a
                   href="tel:041-415-2000"
-                  className="flex items-center justify-between gap-3 hover:underline underline-offset-4"
+                  className="flex items-center justify-between gap-3 text-[#0C4A6E] hover:underline underline-offset-4"
                 >
-                  <span className="inline-flex items-center gap-2 text-sm font-medium text-emerald-100">
+                  <span className="inline-flex items-center gap-2 text-sm font-semibold text-[#0369A1]">
                     <PhoneCall className="w-4 h-4 shrink-0" aria-hidden="true" />
                     <span>청솔빌딩</span>
                   </span>
